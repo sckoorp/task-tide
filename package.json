@@ -1,0 +1,26 @@
+{
+    "name": "urlshortener",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "nuxt": "^3.13.2",
+        "pocketbase": "^0.21.5",
+        "vue": "latest",
+        "vue-router": "latest",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@nuxt/fonts": "^0.10.0",
+        "@nuxt/image": "^1.8.1",
+        "@nuxt/ui": "^2.18.7"
+    },
+    "author": "sckoorp",
+    "license": "MIT"
+}
